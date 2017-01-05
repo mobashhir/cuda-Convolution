@@ -4,6 +4,8 @@ It has two algorithms implementation in cuda
 1- median filter (CPU and GPU)
 2- Blob Detection using scale space Laplcian of Gaussian convolution on a 3 channel image
 
+All images are 3 color channel PPM images
+
 Instructions on how to run the code
 
 The code will either run the Median filter or the blob detector as specified in your command line
