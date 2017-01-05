@@ -1,3 +1,9 @@
+The project has all the code in one file due to issues in executing on the cluster.
+
+It has two algorithms implementation in cuda
+1- median filter (CPU and GPU)
+2- Blob Detection using scale space Laplcian of Gaussian convolution on a 3 channel image
+
 Instructions on how to run the code
 
 The code will either run the Median filter or the blob detector as specified in your command line
