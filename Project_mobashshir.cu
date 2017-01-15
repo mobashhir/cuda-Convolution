@@ -200,6 +200,7 @@ void medianFilterCPU(char *Input_Image, char *Output_Image, int Image_Width, int
 
 }
 
+
 __global__ void LoGConvolutionFunction(char* gpu_result_img_ptr, char* gpu_orig_img_ptr, size_t w, size_t h, float* KernalValues, size_t K){
 	
 	extern __shared__ unsigned char S[];													//defined a shared memory pointer
