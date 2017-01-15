@@ -6,7 +6,7 @@ It has two algorithms implementation in cuda
 
 All images are 3 color channel PPM images
 
-Instructions on how to run the code
+Instructions on how to run the code on a cluster
 
 The code will either run the Median filter or the blob detector as specified in your command line
 
@@ -23,7 +23,6 @@ Float B = increasing_factor used as t+=B" << endl;
 Int   C = numberOfIterations" << endl;
 String D = blob or median" << endl;
 Example : ./a.out butterfly.ppm 0 0.5 5 blob
-
 
 
 For median filter
