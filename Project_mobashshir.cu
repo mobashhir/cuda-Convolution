@@ -17,7 +17,7 @@ const double PI = 3.141592653589793238463;
 																							// 32 x 32 as the max threads suppoted are 1024
 struct RGB
 {		
-	char r, g, b;																			//char values to store the three channel RGB PPM image
+   char r, g, b;																			//char values to store the three channel RGB PPM image
 };
 
 struct ImageRGB
