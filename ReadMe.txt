@@ -1,4 +1,4 @@
-The project has all the code in one file due to issues in executing on the cluster.
+The project has all the code in one file due to issues in executing on the cluster. 
 
 It has two algorithms implementation in cuda
 1- median filter (CPU and GPU)
