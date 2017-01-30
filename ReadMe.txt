@@ -25,7 +25,7 @@ String D = blob or median" << endl;
 Example : ./a.out butterfly.ppm 0 0.5 5 blob
 
 
-For median filter
+For median filter testing using PPM image
 ./a.out ImageName.ppm 0 0.5 5 median
 
 Example: ./a.out applegreen.ppm 0 0.5 5 median
