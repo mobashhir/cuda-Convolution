@@ -37,7 +37,6 @@ struct LoGKernalsList
 	vector<LoGKernal> KernalIndex;															//Laplacian of Gaussian Kernal list structure stores multiple kernals
 };																							//of different sizes as they are required for scale space computation
 
-
 void eat_comment(ifstream &f)   															// to remove comment from line and jump to EOF
 {
 	char linebuf[1024];																		
