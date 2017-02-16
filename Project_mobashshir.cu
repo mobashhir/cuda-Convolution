@@ -329,7 +329,6 @@ __global__ void medianFilterKernel(char *Input_Image, char *Output_Image, int Im
     Output_Image[out_index + 0]=RNeighbor[4]; 												//storing the middle value..the median value of the red channel	
     Output_Image[out_index + 1]=GNeighbor[4]; 												//storing the middle value..the median value of the green channel	
     Output_Image[out_index + 2]=BNeighbor[4]; 												//storing the middle value..the median value of the blue channel
-
 }
 
 __global__ void medianFilterKernelSharedMem(char *Input_Image, char *Output_Image, int Image_Width, int Image_Height) {
@@ -492,7 +491,6 @@ int isNearCircle(int x, int y, int cx, int cy, int radius){									//function t
 
 int main(int argc, char** argv) {
 	
-
 	if (argc != 6) 																			//There should be six command line arguments
 	{
 		cout << "Enter corrrect arguments as ./a.out image.ppm A B C D"<< endl;
